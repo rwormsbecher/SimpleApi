@@ -17,8 +17,6 @@ namespace SimpleAPI.Controllers
         };
 
 
-
-
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
